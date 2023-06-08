@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - Ahsan Khan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff0db;
+        }
+        header {
+            background-color: #333;
+            color: #fff0db;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 10px;
+        }
+        nav ul li a {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            font-size: 1.5em;
+            padding: 10px 20px;
+            border: 2px solid #fff0db;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        nav ul li a:hover {
+            background-color: white;
+            color: #333;
+        }
+        .content {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f5c599;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input,
+        .contact-form textarea,
+        .contact-form button {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #111111;
+            border-radius: 5px;
+        }
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            outline: none;
+            border-color: #333;
+        }
+        .contact-form button {
+            background-color: #333;
+            color: #fff0db;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #fff0db;
+            color: #333;
+        }
+        .contact-info {
+            margin-top: 20px;
+            font-size: 18px;
+            padding: 10px;
+            border: 1px solid #111111;
+            border-radius: 5px;
+            background-color: #fff0db;
+        }
+        .contact-info p {
+            margin: 10px;
+        }
+        .contact-info a {
+            color: #111111;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CONTACT INFO</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT ME</a></li>
+            <li><a href="projects.html">PROJECTS</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <h2 class="section-heading">Get in Touch</h2>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your Email">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:ahsan.k@live.com">ahsan.k@live.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/ahsan-ml/" target="_blank">https://www.linkedin.com/in/ahsan-ml/</a></p>
+        </div>
+    </div>
+</body>
+</html>

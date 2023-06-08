@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects - Ahsan Khan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff0db;
+        }
+        header {
+            background-color: #333;
+            color: #fff0db;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 10px;
+        }
+        nav ul li a {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            font-size: 1.5em;
+            padding: 10px 20px;
+            border: 2px solid beige;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        nav ul li a:hover {
+            background-color: white;
+            color: #333;
+        }
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f5c599;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: space-between;
+        }
+        .project {
+            width: calc(33.33% - 20px);
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 2px solid #111111;
+            border-radius: 5px;
+        }
+        .project .title {
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .project .date {
+            font-style: italic;
+            color: #888;
+            margin-bottom: 5px;
+        }
+        .project p {
+            margin: 10px 0;
+        }
+        .project ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PROJECTS</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT ME</a></li>
+            <li><a href="contacts.html">CONTACT INFO</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <div class="project">
+            <div class="title"><em>Startup Accelerator - Ponder Mobile Application</em></div>
+            <div class="date"><em>Nov 2020 - Feb 2021</em></div>
+            <p>
+                I developed an iOS and Google Play mobile application called 'Ponder'. It is currently live on the app stores.
+            </p>
+            <ul>
+                <li>Part of a four-month accelerator program for startups</li>
+                <li>Performed Customer Discovery and Problem-Solution fit</li>
+                <li>Created prototype and conducted Market Validation</li>
+                <li>Developed MVP and pitched solution to a panel of judges</li>
+            </ul>
+        </div>
+        <div class="project">
+            <div class="title">Prediciting Likelihood of Delays in Construction Projects</div>
+            <div class="date">Jan 2020 - Feb 2020</div>
+            <p>
+                Predicted the likelihood of a schedule delay and its associated impact on cost overruns for construction projects.
+            </p>
+            <ul>
+                <li>Discovered and utilized appropriate external datasets and features</li>
+                <li>Presented solution to stakeholders using Tableau dashboards and outputted a probability of time and cost overrun for each phase of the project</li>
+                <li>Won Hackathon; Models used - Logistic Regression, Decision Tree & K-Means Clustering</li>
+            </ul>
+        </div>
+        <div class="project">
+            <div class="title">Entity Resolution (Natural Language Processing)</div>
+            <div class="date">Jun 2019 - Sep 2019</div>
+            <p>
+                Built an Entity Resolution algorithm using Natural Language Processing techniques to automate record-linkage of raw data.
+            </p>
+            <ul>
+                <li>Employed markov N-Grams, tf-idf, Jaccard/cosine similarity, and a Deep Neural Network to increase accuracy as high as possible</li>
+                <li>Successfully linked raw data of company names written in multiple variations</li>
+                <li>Algorithm deemed scalable</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
